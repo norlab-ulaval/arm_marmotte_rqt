@@ -1,0 +1,20 @@
+<library path="src">
+  <class name="Arm Marmotte Plugin" type="arm_marmotte_rqt.my_module.ArmMarmottePlugin" base_class_type="rqt_gui_py::Plugin">
+    <description>
+      A python GUI to control some predefined positions for Marmotte's Gen3 Kinova arm.
+    </description>
+    <qtgui>
+      <!-- optional grouping...
+      <group>
+        <label>Group</label>
+      </group>
+      <group>
+        <label>Subgroup</label>
+      </group>
+      -->
+      <label>Marmotte Arm UI</label>
+      <icon type="theme">system-help</icon>
+      <statustip>Great user interface to provide real value.</statustip>
+    </qtgui>
+  </class>
+</library>

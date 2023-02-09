@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Arm Control Marmotte GUI</class>
+ <widget class="QWidget" name="Arm Control Marmotte GUI">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Arm Control Marmotte GUI</string>
+  </property>
+  <widget class="QPushButton" name="Upstairs">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>70</y>
+     <width>500</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Climbing stairs pose</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Downstairs">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>130</y>
+     <width>500</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Falling downstairs pose</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Home">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>190</y>
+     <width>500</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Home pose</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Sleep">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>250</y>
+     <width>500</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+	   <string>Retract/Poweroff pose</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="DoorKnob">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>320</y>
+     <width>500</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+	   <string>Standard height door pose</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Table">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>390</y>
+     <width>500</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+	   <string>Standard height table pose</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ReachTest">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>460</y>
+     <width>500</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+	   <string>28 inches reach test pose</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
+
